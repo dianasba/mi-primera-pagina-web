@@ -18,6 +18,17 @@
             font-size: 70px; /* Ajusta el tamaño de fuente según tus preferencias */
             /* Otros estilos que desees aplicar al título */}
 
+                /* Agrega este CSS en la sección <style> de tu archivo */
+    .contenido-con-imagen {display: flex;
+        align-items: center;
+        justify-content: space-between;}
+
+    .imagen-izquierda {max-width: 50%; /* Ajusta el tamaño de la imagen según tus preferencias */}
+
+    .texto-derecha {flex: 1;
+        padding-left: 20px; /* Ajusta el espacio entre la imagen y el texto */}
+
+
     /* Encabezado */
     header {background-color: #333;
         color: white;
@@ -64,8 +75,10 @@
 
     <section id="biografia">
         <h2>Biografía</h2>
-        <img src="https://images.unsplash.com/photo-1521133573892-e44906baee46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Imagen de biografía">
+        <img src="https://images.unsplash.com/photo-1521133573892-e44906baee46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Imagen de biografía" class="imagen-izquierda">
+        <div class="texto-derecha"></div>
         <p>¡Saludos! Soy Diana Sánchez, una apasionada química farmacéutica con una década de experiencia en el apasionante universo de la industria cosmética. Mi trayecto comenzó en los laboratorios de investigación, donde mi curiosidad y pasión por la ciencia me guiaron a explorar las moléculas detrás de los productos de belleza que amamos. A medida que mi carrera evolucionó, me sumergí en la gerencia de marketing, fusionando mi sólido conocimiento científico con estrategias creativas para dar vida a productos innovadores. Mi experiencia como especialista en marketing me permitió descubrir nuevas formas de conectar con los consumidores y adelantarme a las tendencias futuras. ¡Bienvenido a este emocionante viaje lleno de belleza, innovación y educación en mi universo cosmético!</p>
+        </div>
     </section>
 
     <section id="cursos">
