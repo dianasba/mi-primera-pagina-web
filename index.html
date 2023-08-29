@@ -1,145 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Cosméticos Aseo- DS</title>
-    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
-       
-    <style>
-        /* Estilos generales */
-    body {font-family: 'Arial', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f9f9f9; }
-
-            h1 {font-family: 'Zeyada', cursive;
-            font-style: italic; /* Agrega esta línea para ponerlo en cursiva */
-            font-size: 70px; /* Ajusta el tamaño de fuente según tus preferencias */
-            /* Otros estilos que desees aplicar al título */}
-
-            /* Agrega este CSS en la sección <style> de tu archivo */
-    .contenido-con-imagen {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;}
-
-
-    /* Encabezado */
-    header {background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 20px;}
-
-    /* Secciones */
-    section {padding: 40px;
-        background-color: white;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        margin-bottom: 30px; }
-
-    section h2 { font-size: 24px;
-        margin-bottom: 20px;
-        color: #333;}
-
-    section p {font-size: 16px;
-        line-height: 1.6;
-        color: #666;}
-
-    /* Pie de página */
-    footer {background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px;}
-
-    /* Enlaces */
-    a {color: #007BFF;
-        text-decoration: none;
-        transition: color 0.3s; }
-
-    a:hover {color: #0056b3;}
-
-    /* Cambios en enlaces de encabezado */
-    header a {color: white;}
-    header a:hover {color: #ddd;}
-
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Blog Cosméticos Aseo- DS</h1>
-    </header>
-
-    <section id="biografia" class="contenido-con-imagen">
-        <details>
-            <summary>
-                <p>¡Saludos! Soy Diana Sánchez, una apasionada Química Farmacéutica con más de una década de experiencia en el apasionante universo de la industria cosmética. Mi trayecto comenzó en los laboratorios de investigación, donde mi curiosidad y pasión por la ciencia me guiaron a explorar las moléculas detrás de los productos de belleza que amamos. A medida que mi carrera evolucionó, me sumergí en la gerencia de marketing, fusionando mi sólido conocimiento científico con estrategias creativas para dar vida a productos innovadores. Mi posgrado en marketing me permitió descubrir nuevas formas de conectar con los consumidores y adelantarme a las tendencias futuras. ¡Bienvenido a este emocionante viaje lleno de belleza, innovación y educación en mi universo cosmético!</p>
-            </details>
-                    <div class="imagen-izquierda">
-            <img src="https://images.unsplash.com/photo-1521133573892-e44906baee46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Imagen de biografía" class="imagen-comun">
-        </div>
-        <div class="texto-derecha">
-            <h2>Biografía</h2>
-            <p>¡Saludos! Soy Diana Sánchez, si quieres conocer más sobre mi da click en Biografía</p>
-        </div>
-    </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog Cosméticos Aseo- DS</title>
+        <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+           
+        <style>
+            /* Estilos generales */
+        body {font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; }
     
-    <section id="cursos" class="contenido-con-imagen">
-        <div class="imagen-derecha">
-            <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Imagen de cursos" class="imagen-comun">
-        </div>
-        <div class="texto-izquierda">
-            <h2>Cursos</h2>
-            <p>Explora una variedad de cursos diseñados para aprender sobre la ciencia y el marketing en la industria cosmética.</p>
-        </div>
-    </section>
-
-    <section id="talleres" class="contenido-con-imagen">
-        <div class="imagen-izquierda">
-            <img src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Imagen de talleres" class="imagen-comun">
-        </div>
-        <div class="texto-derecha">
-            <h2>Talleres</h2>
-            <p>Participa en nuestros talleres prácticos y descubre técnicas innovadoras en el mundo de la belleza.</p>
-        </div>
-    </section>
-
-    <section id="expertos" class="contenido-con-imagen">
-        <div class="imagen-derecha">
-            <img src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Imagen de expertos" class="imagen-comun">
-        </div>
-        <div class="texto-izquierda">
-            <h2>Expertos</h2>
-            <p>Conoce a expertos de la industria y descubre sus conocimientos y consejos exclusivos.</p>
-        </div>
-    </section>
-
-    <section id="tendencias" class="contenido-con-imagen">
-        <div class="imagen-izquierda">
-            <img src="https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Imagen de tendencias" class="imagen-comun">
-        </div>
-        <div class="texto-derecha">
-            <h2>Tendencias</h2>
-            <p>Mantente al día con las últimas tendencias y novedades en el mundo de los cosméticos.</p>
-        </div>
-    </section>
-
-    <section id="productos" class="contenido-con-imagen">
-        <div class="imagen-derecha">
-            <img src="https://images.unsplash.com/photo-1574281183650-14db8f28c259?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Imagen de productos" class="imagen-comun">
-        </div>
-        <div class="texto-izquierda">
-            <h2>Productos</h2>
-            <p>Explora reseñas detalladas y recomendaciones de productos de belleza seleccionados especialmente para ti.</p>
-        </div>
-    </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Para consultas y colaboraciones, contáctame a través de mi correo electrónico dianamsanchez88@gmail.com o llámame al teléfono 3017879250.</p>
-    </section>
-
-    <footer>
-        <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
+                h1 {font-family: 'Zeyada', cursive;
+                font-style: italic; /* Agrega esta línea para ponerlo en cursiva */
+                font-size: 70px; /* Ajusta el tamaño de fuente según tus preferencias */
+                /* Otros estilos que desees aplicar al título */}
+    
+                /* Agrega este CSS en la sección <style> de tu archivo */
+        .contenido-con-imagen {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;}
+    
+        .imagen-izquierda {
+            max-width: 50%;
+            order: 1; /* Cambia el orden de aparición */}
+    
+        .imagen-derecha {
+            max-width: 50%;
+            order: 2; /* Cambia el orden de aparición */}
+    
+        .texto-derecha {
+            flex: 1;
+            padding-left: 20px;
+            text-align: left;
+            order: 1; /* Cambia el orden de aparición */}
+    
+        .texto-izquierda {
+            flex: 1;
+            padding-right: 20px;
+            text-align: right;
+            order: 2; /* Cambia el orden de aparición */}
+    
+    
+                .imagen-comun {
+            width: 200px; /* Ajusta el ancho según tu preferencia */
+            height: auto; /* Esto mantiene la proporción de aspecto original */}
+    
+    
+        /* Encabezado */
+        header {background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;}
+    
+        /* Secciones */
+        section {padding: 40px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px; }
+    
+        section h2 { font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;}
+    
+        section p {font-size: 16px;
+            line-height: 1.6;
+            color: #666;}
+    
+        /* Pie de página */
+        footer {background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;}
+    
+        /* Enlaces */
+        a {color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s; }
+    
+        a:hover {color: #0056b3;}
+    
+        /* Cambios en enlaces de encabezado */
+        header a {color: white;}
+        header a:hover {color: #ddd;}
+    
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Blog Cosméticos Aseo- DS</h1>
+        </header>
+    
+        <section id="biografia" class="contenido-con-imagen">
+            <div class="imagen-izquierda">
+                <img src="https://images.unsplash.com/photo-1521133573892-e44906baee46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Imagen de biografía" class="imagen-comun">
+            </div>
+            <div class="texto-derecha">
+                <h2>Biografía</h2>
+                <p>¡Saludos! Soy Diana Sánchez, una apasionada Química Farmacéutica con más de una década de experiencia en el apasionante universo de la industria cosmética. Mi trayecto comenzó en los laboratorios de investigación, donde mi curiosidad y pasión por la ciencia me guiaron a explorar las moléculas detrás de los productos de belleza que amamos. A medida que mi carrera evolucionó, me sumergí en la gerencia de marketing, fusionando mi sólido conocimiento científico con estrategias creativas para dar vida a productos innovadores. Mi posgrado en marketing me permitió descubrir nuevas formas de conectar con los consumidores y adelantarme a las tendencias futuras. ¡Bienvenido a este emocionante viaje lleno de belleza, innovación y educación en mi universo cosmético!</p>
+            </div>
+        </section>
+        
+        <section id="cursos" class="contenido-con-imagen">
+            <div class="imagen-derecha">
+                <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Imagen de cursos" class="imagen-comun">
+            </div>
+            <div class="texto-izquierda">
+                <h2>Cursos</h2>
+                <p>Explora una variedad de cursos diseñados para aprender sobre la ciencia y el marketing en la industria cosmética.</p>
+            </div>
+        </section>
+    
+        <section id="talleres" class="contenido-con-imagen">
+            <div class="imagen-izquierda">
+                <img src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Imagen de talleres" class="imagen-comun">
+            </div>
+            <div class="texto-derecha">
+                <h2>Talleres</h2>
+                <p>Participa en nuestros talleres prácticos y descubre técnicas innovadoras en el mundo de la belleza.</p>
+            </div>
+        </section>
+    
+        <section id="expertos" class="contenido-con-imagen">
+            <div class="imagen-derecha">
+                <img src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Imagen de expertos" class="imagen-comun">
+            </div>
+            <div class="texto-izquierda">
+                <h2>Expertos</h2>
+                <p>Conoce a expertos de la industria y descubre sus conocimientos y consejos exclusivos.</p>
+            </div>
+        </section>
+    
+        <section id="tendencias" class="contenido-con-imagen">
+            <div class="imagen-izquierda">
+                <img src="https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Imagen de tendencias" class="imagen-comun">
+            </div>
+            <div class="texto-derecha">
+                <h2>Tendencias</h2>
+                <p>Mantente al día con las últimas tendencias y novedades en el mundo de los cosméticos.</p>
+            </div>
+        </section>
+    
+        <section id="productos" class="contenido-con-imagen">
+            <div class="imagen-derecha">
+                <img src="https://images.unsplash.com/photo-1574281183650-14db8f28c259?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Imagen de productos" class="imagen-comun">
+            </div>
+            <div class="texto-izquierda">
+                <h2>Productos</h2>
+                <p>Explora reseñas detalladas y recomendaciones de productos de belleza seleccionados especialmente para ti.</p>
+            </div>
+        </section>
+    
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para consultas y colaboraciones, contáctame a través de mi correo electrónico dianamsanchez88@gmail.com o llámame al teléfono 3017879250.</p>
+        </section>
+    
+        <footer>
+            <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+    </html>
